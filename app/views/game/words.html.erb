@@ -1,0 +1,13 @@
+<h1>Game#words</h1>
+<p>Find me in app/views/game/words.html.erb</p>
+
+<%= @some %>
+
+
+<form action="score" method="get">
+
+  <input type="text" name="answer"> Question </input>
+  <input type="hidden" name="grid" value="<%= @some %>"> </input>
+  <button type="submit" > click to submit </button>
+
+</form>
